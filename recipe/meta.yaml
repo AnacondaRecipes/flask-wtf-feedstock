@@ -17,13 +17,17 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
+    - wheel
+    - setuptools
 
   run:
-    - python
+    - python >=3.6
     - flask
     - werkzeug
     - wtforms
+    - itsdangerous
+    - email-validator
 
 test:
   imports:
