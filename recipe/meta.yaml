@@ -33,6 +33,10 @@ test:
   imports:
     - flask_wtf
     - flask_wtf.recaptcha
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://github.com/lepture/flask-wtf
