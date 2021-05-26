@@ -1,5 +1,5 @@
 {% set name = "Flask-WTF" %}
-{% set version = "0.14.3" %}
+{% set version = "0.15.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d417e3a0008b5ba583da1763e4db0f55a1269d9dd91dcc3eb3c026d3c5dbd720
+  sha256: ff177185f891302dc253437fe63081e7a46a4e99aca61dfe086fb23e54fff2dc
 
 build:
   noarch: python
