@@ -1,0 +1,4 @@
+channels:
+  - https://staging.continuum.io/prefect/fs/werkzeug-feedstock/pr10/32826d1
+  - https://staging.continuum.io/prefect/fs/itsdangerous-feedstock/pr4/6569ec4
+  - https://staging.continuum.io/prefect/fs/flask-feedstock/pr11/fc6007f
